@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Globe from "react-globe.gl";
-
 import Button from "../Components/Button";
 
 const About = () => {
@@ -23,7 +22,7 @@ const About = () => {
             <img
               src="assets/grid1.png"
               alt="grid-1"
-              className="w-full sm:h-[276px] h-fit object-contain"
+              className="w-full sm:h-[276px] h-fit object-contain  transition duration-300 ease-in-out"
             />
 
             <div>
@@ -73,7 +72,7 @@ const About = () => {
                   {
                     lat: 40,
                     lng: -100,
-                    text: "Rjieka, Croatia",
+                    text: "Kanpur, UP",
                     color: "white",
                     size: 15,
                   },
