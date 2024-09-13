@@ -5,6 +5,7 @@ import React from "react";
 import Projects from "./Sections/Projects";
 import Contact from "./Sections/Contact";
 import Footer from "./Sections/Footer";
+import WorkExperience from "./Sections/Experience";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
+      <WorkExperience />
       <Contact />
       <Footer />
     </main>
